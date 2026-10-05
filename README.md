@@ -39,12 +39,12 @@ Por ejemplo:
 ```bash
 python main.py scenario_1 0.5
 ```
-![alt text](image.png)
 
 El programa mostrará por pantalla:
 1. La posición de los radares dentro de los límites del mapa.
 2. El mapa de detección resultante (zonas de mayor/menor riesgo).
 3. La ruta solución encontrada, junto con el coste total y el número de nodos expandidos por la búsqueda.
+![alt text](image.png)
 
 ## Tecnologías
 
