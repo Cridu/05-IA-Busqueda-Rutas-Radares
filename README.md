@@ -39,6 +39,7 @@ Por ejemplo:
 ```bash
 python main.py scenario_1 0.5
 ```
+![alt text](image.png)
 
 El programa mostrará por pantalla:
 1. La posición de los radares dentro de los límites del mapa.

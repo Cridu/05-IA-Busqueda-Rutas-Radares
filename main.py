@@ -118,6 +118,11 @@ def main() -> None:
                                  map_width=M.width,
                                  map_height=M.height)
     
+    # Guard: if no path could be found there is nothing to plot
+    if len(solution_plan) == 0:
+        print("No solution found. Try a higher tolerance.")
+        return
+
     # Compute the solution cost
     path_cost = compute_path_cost(G=G, solution_plan=solution_plan)
 
